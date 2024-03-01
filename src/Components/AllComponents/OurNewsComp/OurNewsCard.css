@@ -1,0 +1,53 @@
+.cards-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  --font-color: #323232;
+  --font-color-sub: #666;
+  --bg-color: #fff;
+  --main-color: #323232;
+  --main-focus: #2d8cf0;
+  width: 90%;
+  height: 100%;
+}
+
+.card:last-child {
+  justify-content: flex-end;
+}
+
+.cards-img {
+  /* clear and add new css */
+  transition: all 0.5s;
+  display: flex;
+  justify-content: center;
+}
+
+.cards-img img {
+  width: 100%;
+}
+.cards-subtitle {
+  text-align: center;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cards-subtitle h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.span {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: gray;
+}
+.cards-subtitle p {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}

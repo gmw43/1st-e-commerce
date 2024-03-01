@@ -1,0 +1,35 @@
+.text_div h5 {
+  color: #ff7a00;
+  font-size: 2vw;
+  font-weight: 400;
+  margin-bottom: 15px;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+}
+
+.text_div h1 {
+  color: white;
+  font-size: 4vw;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 500px) {
+  .text_div h5 {
+    font-size: 2.7vw;
+  }
+  .text_div h1 {
+    font-size: 5.5vw;
+  }
+  .text_div {
+    top: 35%;
+    left: 20% !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .text_div {
+    top: 35%;
+    left: 8% !important;
+  }
+}

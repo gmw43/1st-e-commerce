@@ -32,6 +32,7 @@ const Contactus = () => {
         subject: '',
       })
       // console.log(formData)
+      // console.log(formData)
       alert('Your request is submitted')
     }
   }
